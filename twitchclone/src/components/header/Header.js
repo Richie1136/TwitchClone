@@ -13,15 +13,28 @@ const Header = () => {
         <h2>Esports</h2>
         <h2>Music</h2>
         <div className='header-vertical_line'></div>
+        <i className="fas fa-ellipsis-h"></i>
       </div>
-      <div className='header-center'></div>
-      <div className='header-right'></div>
+      <div className='header-center'>
+        <input type='text' placeholder='Search' />
+        <div className='header-centerlogo'>
+          <i className="fas fa-search"></i>
+        </div>
+      </div>
+      <div className='header-right'>
+        <div className='header-right_container'>
+          <i className="fas fa-crown"></i>
+          <i className="fas fa-inbox"></i>
+          <i className="fas fa-comments"></i>
+          <div className='header-right_bits'>
+            <i class="far fa-gem"></i>
+            <h4>Get Bits</h4>
+          </div>
+        </div>
+      </div>
 
     </div>
   )
 }
 
 export default Header
-
-
-{/* <a href="https://www.freepnglogos.com/pics/twitch-logo-png">Twitch Logo from freepnglogos.com</a> */ }
