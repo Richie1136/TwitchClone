@@ -1,3 +1,4 @@
+import { Avatar } from '@material-ui/core'
 import React from 'react'
 import './Header.css'
 
@@ -10,9 +11,9 @@ const Header = () => {
           alt='twitch logo' />
         <h2>Following</h2>
         <h2>Browse</h2>
+        <div className='header-vertical_line'></div>
         <h2>Esports</h2>
         <h2>Music</h2>
-        <div className='header-vertical_line'></div>
         <i className="fas fa-ellipsis-h"></i>
       </div>
       <div className='header-center'>
@@ -30,9 +31,9 @@ const Header = () => {
             <i class="far fa-gem"></i>
             <h4>Get Bits</h4>
           </div>
+          <i class="fas fa-user"></i>
         </div>
       </div>
-
     </div>
   )
 }
