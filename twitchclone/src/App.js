@@ -1,10 +1,14 @@
+import Header from './components/header/Header'
 
 function App() {
   return (
     <div className="App">
-      <h1>Twitch Clone</h1>
+      <Header />
     </div>
   );
 }
 
 export default App;
+
+
+
