@@ -1,0 +1,27 @@
+.sidebar {
+  display: flex;
+  width: 13%;
+  padding: 10px;
+  flex-direction: column;
+  background-color: #1f1f23;
+}
+
+.sidebar > h5 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.sidebar-top_showmore {
+  color: #a970ff;
+  cursor: pointer;
+}
+
+.sidebar-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  height: 4rem;
+  bottom: 0;
+  border-top: 1px solid #4f4f52;
+}
