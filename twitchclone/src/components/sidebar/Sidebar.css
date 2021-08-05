@@ -6,7 +6,11 @@
   background-color: #1f1f23;
 }
 
-.sidebar > h5 {
+.sidebar-top {
+  flex: 1;
+}
+
+.sidebar-top > h5 {
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -24,4 +28,24 @@
   height: 4rem;
   bottom: 0;
   border-top: 1px solid #4f4f52;
+}
+
+.sidebar-bottom_container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-radius: 8px;
+  background-color: #4f4f52;
+  padding-left: 10px;
+  padding-right: 5px;
+  height: 2.5rem;
+}
+
+.sidebar-bottom > div > input {
+  width: 100%;
+  margin-left: 10px;
+  background-color: transparent;
+  font-size: large;
+  border: none;
+  outline: none;
 }
