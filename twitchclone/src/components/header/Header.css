@@ -21,7 +21,7 @@
   margin-left: 20px;
 }
 
-.header-left>h2 {
+.header-left > h2 {
   margin: 15px;
 }
 
@@ -30,7 +30,7 @@
   height: 3rem;
 }
 
-.header-left>i {
+.header-left > i {
   margin-left: 15px;
 }
 
@@ -44,7 +44,7 @@
   align-items: center;
 }
 
-.header-center>input {
+.header-center > input {
   outline: none;
   background-color: transparent;
   flex: 1;
@@ -74,7 +74,8 @@
   align-items: center;
 }
 
-.header-right_container>i, .header-right_container>div {
+.header-right_container > i,
+.header-right_container > div {
   margin: 20px;
 }
 
@@ -88,6 +89,19 @@
   border-radius: 15px;
 }
 
-.header-right_bits>i {
+.header-right_bits > i {
   margin-right: 5px;
+}
+
+.header-rightlogo {
+  display: flex;
+  border-radius: 9000px !important;
+  height: 30px;
+  width: 30px;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+  max-width: 100%;
 }

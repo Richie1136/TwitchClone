@@ -1,6 +1,7 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
 import './Header.css'
+import Channel from '../channel/Channel'
 
 // https://pngimg.com/uploads/twitch/twitch_PNG6.png
 const Header = () => {
@@ -31,7 +32,7 @@ const Header = () => {
             <i class="far fa-gem"></i>
             <h4>Get Bits</h4>
           </div>
-          <i class="fas fa-user"></i>
+          <img className='header-rightlogo' src='https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png' />
         </div>
       </div>
     </div>
