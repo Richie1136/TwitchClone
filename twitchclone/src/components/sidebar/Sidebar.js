@@ -7,6 +7,10 @@ const Sidebar = () => {
     <div className='sidebar'>
       <div className='sidebar-top'>
         <h5>FOLLOWED CHANNELS</h5>
+        <Channel avatar='https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png'
+          name='Richie1136'
+          viewers='1'
+        />
         <Channel avatar='https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-70x70.jpeg'
           name='xQcOW'
           viewers='75,360' />

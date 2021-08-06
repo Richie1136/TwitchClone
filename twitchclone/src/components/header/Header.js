@@ -32,7 +32,7 @@ const Header = () => {
             <i class="far fa-gem"></i>
             <h4>Get Bits</h4>
           </div>
-          <img className='header-rightlogo' src='https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png' />
+          <i class="fa fa-user-circle" aria-hidden="true"></i>
         </div>
       </div>
     </div>

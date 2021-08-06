@@ -1,7 +1,7 @@
 import Header from './components/header/Header'
 import './App.css'
 import Sidebar from './components/sidebar/Sidebar'
-import Main from './components/main/Main'
+import Body from './components/body/Body'
 import Profile from './components/profile/Profile'
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <div className='app-main'>
         <Sidebar />
-        <Main />
+        <Body />
       </div>
     </div>
   );
