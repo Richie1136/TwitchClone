@@ -1,4 +1,5 @@
 import React from 'react'
+import Recentitem from '../recentitem/Recentitem'
 import './Profile.css'
 
 const Profile = () => {
@@ -26,9 +27,20 @@ const Profile = () => {
       </div>
       <div className='profile-recent'>
         <h2>Recent broadcasts</h2>
+        <div className='profile-recent_items'>
+          <Recentitem
+            url={"https://www.youtube.com/embed/_3BzrET-HfE"}
+            title={"I challenged Instagram on NBA 2K21 for $5000"}
+          />
+          <Recentitem
+            url={"https://www.youtube.com/embed/xi0HRVUsaOw"}
+            title={"The 5 BEST Investments That Will Make You RICH"}
+          />
+        </div>
       </div>
     </div>
   )
 }
 
 export default Profile
+
