@@ -30,7 +30,7 @@ const Header = () => {
             <i className="far fa-gem"></i>
             <h4>Get Bits</h4>
           </div>
-          <i className="fa fa-user-circle" aria-hidden="true"></i>
+          <img className='rightlogo' src='https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-70x70.png' />
         </div>
       </div>
     </div>

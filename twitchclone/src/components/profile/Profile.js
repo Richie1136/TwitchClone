@@ -37,6 +37,14 @@ const Profile = () => {
             url={"https://www.youtube.com/embed/xi0HRVUsaOw"}
             title={"The 5 BEST Investments That Will Make You RICH"}
           />
+          <Recentitem
+            url={"https://www.youtube.com/embed/z4rQOuyV43s"}
+            title={"The Stock Market Is FREE MONEY | DO THIS NOW"}
+          />
+          <Recentitem
+            url={"https://www.youtube.com/embed/E5osl1fNsSo"}
+            title={"Playing Roblox NBA 2K22! NEW MYCAREER MODE!"}
+          />
         </div>
         <div className='profile-categories'>
           <h2>recently streamed Categories</h2>

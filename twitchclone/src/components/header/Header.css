@@ -93,15 +93,15 @@
   margin-right: 5px;
 }
 
-.header-rightlogo {
-  display: flex;
-  border-radius: 9000px !important;
-  height: 30px;
-  width: 30px;
-}
-
 img {
   border: none;
   vertical-align: top;
   max-width: 100%;
+}
+
+img.rightlogo {
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
