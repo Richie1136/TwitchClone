@@ -64,3 +64,19 @@
 .profile-recent {
   margin-left: 40px;
 }
+
+.profile-recent_items {
+  display: flex;
+}
+
+.profile-categories {
+  margin-top: 40px;
+}
+
+.profile-categories > h2 {
+  margin-bottom: 20px;
+}
+
+.profile-categories > h3 {
+  margin-top: 10px;
+}

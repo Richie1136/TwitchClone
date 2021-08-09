@@ -47,7 +47,7 @@ const Profile = () => {
           />
         </div>
         <div className='profile-categories'>
-          <h2>recently streamed Categories</h2>
+          <h2>Richie1136's recently streamed Categories</h2>
           <img src='https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-285x380.jpg' />
           <h3>Just Chatting</h3>
         </div>
