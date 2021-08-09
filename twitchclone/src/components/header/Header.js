@@ -1,9 +1,7 @@
-import { Avatar } from '@material-ui/core'
 import React from 'react'
 import './Header.css'
 import Channel from '../channel/Channel'
 
-// https://pngimg.com/uploads/twitch/twitch_PNG6.png
 const Header = () => {
   return (
     <div className='header'>
@@ -29,10 +27,10 @@ const Header = () => {
           <i className="fas fa-inbox"></i>
           <i className="fas fa-comments"></i>
           <div className='header-right_bits'>
-            <i class="far fa-gem"></i>
+            <i className="far fa-gem"></i>
             <h4>Get Bits</h4>
           </div>
-          <i class="fa fa-user-circle" aria-hidden="true"></i>
+          <i className="fa fa-user-circle" aria-hidden="true"></i>
         </div>
       </div>
     </div>

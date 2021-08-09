@@ -7,29 +7,26 @@
   align-items: center;
 }
 
-.profile-top_left {
+.profile-topLeft {
   display: flex;
   align-items: center;
   flex: 1;
 }
 
-.prfile-top_left > img {
+.profile-topLeft > img {
+  object-fit: contain;
   height: 100px;
   margin: 40px;
   border: 2px solid #35353a;
   border-radius: 50%;
   padding: 3px;
-  object-fit: contain;
-}
-img {
-  border-radius: 50%;
 }
 
-.profile-top_right {
+.profile-topRight {
   font-size: 30px;
 }
 
-.profile-top_right > i {
+.profile-topRight > i {
   margin: 10px;
   padding: 10px;
   border-radius: 8px;
@@ -37,7 +34,7 @@ img {
   text-align: center;
 }
 
-.profile-top_right > .graybg {
+.profile-topRight > .graybg {
   background-color: #35353a;
 }
 
@@ -62,4 +59,8 @@ img {
   color: #a970ff;
   border-bottom: 5px solid #a970ff;
   padding-bottom: 10px;
+}
+
+.profile-recent {
+  margin-left: 40px;
 }

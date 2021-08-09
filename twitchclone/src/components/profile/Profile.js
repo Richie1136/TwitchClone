@@ -5,14 +5,15 @@ import './Profile.css'
 const Profile = () => {
   return (
     <div className='profile'>
-      <div className='profile-top_left'>
+      <div className='profile-topLeft'>
         <img src='https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png' />
+
         <div className='profile-topLeft_details'>
           <h1>Richie1136</h1>
           <h3>1 follower</h3>
         </div>
       </div>
-      <div className='profile-top_right'>
+      <div className='profile-topRight'>
         <i className='fas fa-heart graybg'></i>
         <i className='fas fa-bell graybg'></i>
         <i className='fas fa-ellipsis-v'></i>
@@ -37,10 +38,14 @@ const Profile = () => {
             title={"The 5 BEST Investments That Will Make You RICH"}
           />
         </div>
+        <div className='profile-categories'>
+          <h2>recently streamed Categories</h2>
+          <img src='https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-285x380.jpg' />
+          <h3>Just Chatting</h3>
+        </div>
       </div>
     </div>
   )
 }
 
 export default Profile
-

@@ -3,11 +3,11 @@ import Profile from '../profile/Profile'
 import './Body.css'
 const Body = () => {
   return (
-    <div className='Body'>
-      <div className='Body-left'>
+    <div className='body'>
+      <div className='body-left'>
         <Profile />
       </div>
-      <div className='Body-right_placeholder'></div>
+      <div className='body-right_placeholder'></div>
     </div>
   )
 }
